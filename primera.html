@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>T&iacute;tulo de la ventana</title>
+</head>
+<body>
+Este a&ntilde;o aprenden HTML
+<p>
+	Esta parte se ve en el navegador 
+</p>
+<p>
+	hay un texto aqu&iacute;
+</p>
+Aqu&iacute; escribo otra l&iacute;nea
+<h1>Listas:</h1>	
+
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+</ul>
+
+<ol>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+</ol>
+
+<strong>Texto en negritas</strong>
+<b>Otro texto en negritas</b>
+
+<a href="http://itculiacan.edu.mx" target="_blank">P&aacute;gina del Tec</a>
+<br>
+<hr>
+Tablas:
+<table border align=center>
+	<tr>
+		<th>N&uacute;mero</th>
+		<th>Nombre</th>
+		<th>N.Control</th>
+		<th rowspan=2>Algo &nbsp;</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Mi nombre</td>
+		<td>12345678</td>
+		<!-- <td colspan=2>12345678</td> -->
+	</tr>
+</table>
+Imagen desde un link <br>
+<img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" width="150" height="">
+<br> Imagen en archivo propio de una carpeta <br>
+<img src="logogoogle.png" width="95">
+
+<br> Formularios 
+<!-- action = página que procesa la información -->
+<!-- method = cómo se envía la información 
+		1) get, Get, GET
+		2) post, Post, POST
+
+-->
+<form action="paginadementiras.html" method="POST" id="formaCaptura">
+	<!-- la etiqueta 'input' siempre debe llevar el atributo "name" -->
+
+	<input type="text" name="nombre">
+	<input type"text" name="apellido">
+	<input type="submit" value="Aceptar">
+	<input type="reset">
+</form>	
+
+<!--Sirve para ponerle marquesina a los textos, se descontinuo y ahora
+es sustituido por "render" cuya funcion es dibujar en pantalla-->
+<marquee>Esta ya no se usa</marquee>
+
+</body>
+</html>
+
+<!-- pdm.html?nombre=algo&otro=valor&otroi=valor 
+  ? = inicio de parámetros
+  & = siguientes parámetros -->
