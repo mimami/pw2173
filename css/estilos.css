@@ -1,0 +1,39 @@
+body
+{
+	/*atributo: valor;*/
+	border: 1px solid red;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+header{
+	border: 1px solid blue;
+	text-align: center;
+}
+header img{
+	/*el float permite mover una imagen hacia donde queramos (hace que flote)*/
+	width: 90px;
+	float: right;
+	margin-right: 15px;
+	/*entre mas negativo el numero sube mas la imagen*/
+	margin-top: -60px;
+
+}
+header nav {
+	margin-top: 60px;
+}
+header nav ul li{
+	/*inline-block apila los elementos horizontalmente, block los apila verticalmente*/
+	/*padding = Establece la anchura de algunas o todas las zonas de relleno de los elementos*/
+	/*border-radius = modifica el radio de una zona de relleno (mas cuadrado o mas circular)*/
+	/*margin = Establece la anchura de algunos o todos los márgenes de los elementos*/
+	display: inline-block;
+	background: blue;
+	border-radius: 7px;
+	color: white;
+	margin: 0px 10px 0px 0px;
+	padding: 5px 10px 5px 10px;
+	width: 80px;
+
+}
