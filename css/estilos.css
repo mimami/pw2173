@@ -35,5 +35,12 @@ header nav ul li{
 	margin: 0px 10px 0px 0px;
 	padding: 5px 10px 5px 10px;
 	width: 80px;
+	/*box-shadow sirve para sombrear cajas. Lleva 3 parametros: derecha, abajo y color*/
+	box-shadow: -3px -3px rgba(0,0,0,0.5);
 
+}
+/*hover sirve para resaltar una caja (con un color) cuando el cursor se posiciona en ella*/
+header nav ul li:hover{
+	background: orange;
+	color: black;
 }
