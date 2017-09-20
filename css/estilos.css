@@ -44,3 +44,14 @@ header nav ul li:hover{
 	background: orange;
 	color: black;
 }
+section article{
+	border: 1px solid tomato;
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+footer{
+	background: blue;
+	color: white;
+	text-align: center;
+}
