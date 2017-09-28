@@ -54,6 +54,7 @@ form input[type="button"]{
 	color: blue;
 	margin-left: 130px;
 	border-radius: 5px;
+	font-size: 15px;
 }
 /*todas las clases inician con punto*/
 .unaSeccion,.otraSeccion{
