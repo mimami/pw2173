@@ -2,6 +2,20 @@ body{
 	font-size: 16px;  /*1em*/
 	margin: 0 auto;  /*centramos el body*/
 	max-width: 1078px; /*empresa-cliente*/
+	min-width: 1078px;
+}
+header nav{
+	/*No funciona por la mancha de pintura*/
+	/*text-align: center;*/
+	margin-left: 220px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right : 15px;
+	color: gray;
+	font-size: 1.5em;
+	/*TEXT-DECORATION: UNDERLINE; = Opción 1 para poner linea debajo de un texto;*/ 
+	border-bottom: 1px solid gray; /*Opción 2*/
 }
 header input{
 	float: right;
@@ -15,4 +29,26 @@ header input{
 }
 #paint{
 	float: right;
+}
+#primerseccion{
+	height: 318px;
+	margin-top: 60px;
+}
+#secc01art01{
+	margin-left: 30px;
+	width: 60%;
+}
+#secc01art02{
+	width: 30%;
+}
+#primerseccion article{
+	display: inline-block;
+	vertical-align: top;
+}
+#bgoffer{
+	/*margin-top: -500px;*/
+	/*POSITION: STATIC; permite que la imagen pueda atravesar otras cajas estáticas*/
+	position: relative;
+	top: -400px;
+	left: -40px;
 }
