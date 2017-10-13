@@ -1,3 +1,7 @@
+header nav{
+	background: #FF6600 ;
+	border-radius: 5px;
+	color: white;}
 header nav ul li{
 	display: inline-block;
 }
