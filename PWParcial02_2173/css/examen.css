@@ -1,0 +1,63 @@
+body{
+	font-size: 16px; /*1em*/
+
+}
+header img{
+	margin-left: 240px;
+	margin-top: -23px;
+	width: 80%;
+}
+
+header input{
+}
+
+#primerseccion img{
+	width: 101%;
+}
+
+#primerseccion nav ul li{
+	color: gray;
+}
+
+#primerseccion{
+	background: #323232;
+	color: white;
+}
+
+#primerseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 19%
+
+}
+
+
+#secc01art02{
+	background: #9ACD32;
+
+}
+
+#secc01art03{
+	background: #7e7e7e;
+}
+
+#secc01art04{
+	background: red;
+}
+
+#secc01art05{
+	background: white;
+	color: gray;
+}
+
+#segundaseccion{
+	background: #323232;
+	color: white;
+	margin-top: 0px;
+}
+
+#segundaseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 53%
+}
