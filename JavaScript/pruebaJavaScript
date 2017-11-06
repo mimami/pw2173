@@ -1,0 +1,48 @@
+JavaScript: (lenguaje de programación)
+* Se integra con HTML para validaciones
+* LiveScript (menos poderoso)
+* Sintáxis JAVA (if, while, etc...)
+* Punto y coma es opcional (recomienda)
+* Elimina el ocultamiento
+(Se mira el código del lado del cliente)
+* Existe JavaScript del lado del servidor en distintas aplicaciones
+* No es tipado, es decir, no hay que declarar el tipo de datos en las variables.
+
+
+
+-------------------------------------------------------------------------------------
+
+suma
+ƒ suma(i,j){return i+j;}
+(suma)
+ƒ suma(i,j){return i+j;}
+suma(2,5)
+7
+var suma2 = function(k,l){return k+l;}
+undefined
+suma2
+ƒ (k,l){return k+l;}
+suma2(7,9)
+16
+suma(7,9)
+16
+alert("Hola JavaScript");
+undefined
+for(var i=0;i<50;i++){alert("jajajaja");}
+undefined
+document.write("Este texto sustituye la página");
+undefined
+var confirmacion = confirm("¿Estás seguro de borrar GIT?");
+undefined
+var confirmacion = confirm("¿Estás seguro de borrar GIT?");
+undefined
+alert(var confirmacion = confirm("¿Estás seguro de borrar GIT?"));
+VM416:1 Uncaught SyntaxError: Unexpected token var
+alert(var confirmacion = confirm("¿Estás seguro de borrar GIT?");)
+VM429:1 Uncaught SyntaxError: Unexpected token var
+alert(confirmacion = confirm("¿Estás seguro de borrar GIT?"));
+undefined
+var nombre = prompt("Escribe tu nombre:");
+undefined
+nombre
+"dsadadsa"
