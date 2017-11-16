@@ -6,6 +6,15 @@ form input[type="text"]{
 	text-align: right;
 }
 form input[type="button"]{
-	background: gray;
+	background: blue;
+	color: white;
+	width: 70px;
+}
+#btnCientifica{
+	background: orange;
 	color: black;
+	border-radius: 5px;
+	height: 50px;
+	width: 150px;
+	margin-right: 200px;
 }

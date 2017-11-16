@@ -15,6 +15,7 @@ function muestraPantallaPrincipal(){
 		protocol: 'file', //tipo de archivo
 		slashes: true //lleva diagonales normales
 	}))
+	PantallaPrincipal.webContents.openDevTools(); 
 	PantallaPrincipal.show(); //muestra la pantalla
 }
 
