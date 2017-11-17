@@ -14,7 +14,7 @@ function calculadoraCientifica(){
 		protocol: 'file',
 		slashes: true
 	}));
-	VentanaCalcCient.webContents.openDevTools(); //habilita la opción de depurador del navegador
+	ventanaCalcCient.webContents.openDevTools(); //habilita la opción de depurador del navegador
 	ventanaCalcCient.show(); //muestra la pagina
 }
 
